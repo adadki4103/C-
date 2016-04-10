@@ -1,0 +1,11 @@
+p:\visual studio 2013\Projects\PCInfo\PCInfo\bin\Debug\PCInfo.exe.config
+p:\visual studio 2013\Projects\PCInfo\PCInfo\bin\Debug\PCInfo.exe
+p:\visual studio 2013\Projects\PCInfo\PCInfo\bin\Debug\PCInfo.pdb
+p:\visual studio 2013\Projects\PCInfo\PCInfo\obj\Debug\PCInfo.csprojResolveAssemblyReference.cache
+p:\visual studio 2013\Projects\PCInfo\PCInfo\obj\Debug\PCInfo.Form1.resources
+p:\visual studio 2013\Projects\PCInfo\PCInfo\obj\Debug\PCInfo.Properties.Resources.resources
+p:\visual studio 2013\Projects\PCInfo\PCInfo\obj\Debug\PCInfo.csproj.GenerateResource.Cache
+p:\visual studio 2013\Projects\PCInfo\PCInfo\obj\Debug\PCInfo.exe
+p:\visual studio 2013\Projects\PCInfo\PCInfo\obj\Debug\PCInfo.pdb
+P:\Visual Studio 2013\Projects\PCInfo\PCInfo\obj\Debug\Interop.EASendMailObjLib.dll
+P:\Visual Studio 2013\Projects\PCInfo\PCInfo\obj\Debug\PCInfo.csproj.ResolveComReference.cache
