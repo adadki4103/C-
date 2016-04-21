@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DnD5e Monster Manual DM Assistant.exe" version="1.0.0.2" publicKeyToken="0e10987ca20304f3" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="one-eyed-monster-silhouette_313.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DnD5e Monster Manual DM Assistant" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DnD5e Monster Manual DM Assistant.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DnD5e Monster Manual DM Assistant.exe" size="687016">
+      <assemblyIdentity name="DnD5e Monster Manual DM Assistant" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JpDwjzeFmz8IXOYSVfuutZwXO6XWMQyUhbMK4cmELbk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DnD5e Monster Manual DM Assistant.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="one-eyed-monster-silhouette_313.ico" size="28048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SBHYfaark61xHMiTOGd1cuMzZ4/1hxtoJJMBEQHwZa8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Adam-PC\Adam" issuerKeyHash="b3649ed0b10ea8f1a1ebf80fbb3e13a9de6fbc28" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YawqfNVGbVdNDmC3Gcfxa1bk7ghJ1EEyQYOUrp0MCwo=</DigestValue></Reference></SignedInfo><SignatureValue>BI8/xxRZRizdRmUYtPVPpNRdpZTsH+BA5NgZwm/Zr+chKXKx7z9vaFYB7liyNy55lGG2juKqkt3oxczvhCVSfrfRxTWbdIhxnNxRHH0kTJeZlDPNZ6voJWIy7/aj6Tw9cA58cK5t9bl+hF4sUv3s5QUg+xt4eN4HBiA0NZsBaBE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>maHV31Gk33u2u3M6i2AwJjC0+eKPzU19gRoBz3BJTc3NEipaeKTQB6Cl9mCYU06SF1x/FMAad7GddY7yYV5fYk2aYRhMKMIU8u3Cwl0Ry+GotxERwsAFFeV0wA0EXaKPJe4QD/2Oq4AhFPWeYe7W/L9YocGyaxFW+VMf0F10PRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0a0b0c9dae9483413241d44908eee4566bf1c719b7600e4d576d46d57c2aac61" Description="" Url=""><as:assemblyIdentity name="DnD5e Monster Manual DM Assistant.exe" version="1.0.0.2" publicKeyToken="0e10987ca20304f3" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Adam-PC\Adam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BrOjdRKRGvpEOswPJyKUui57jhhLzt/mx5T9+9NZHkg=</DigestValue></Reference></SignedInfo><SignatureValue>IUBqxR0SszQyLUmoJ/f8owvJJHY0d0z/QhffuIo9fg90eiY2Zuahf6F8BF/gG+u6yUR0uw5ERBzW2lrTmRmY9majWQFW0/SOwydQpDhd59qRnP8cPUZKhzsKo4nJgx/dXRGEzD0Wg6oH46wFLGw+st/go7eaBvrMgheepzdjEMU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>maHV31Gk33u2u3M6i2AwJjC0+eKPzU19gRoBz3BJTc3NEipaeKTQB6Cl9mCYU06SF1x/FMAad7GddY7yYV5fYk2aYRhMKMIU8u3Cwl0Ry+GotxERwsAFFeV0wA0EXaKPJe4QD/2Oq4AhFPWeYe7W/L9YocGyaxFW+VMf0F10PRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQRS3hq4MZNb1M1QCPVINoGzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQQBkAGEAbQAtAFAAQwBcAEEAZABhAG0wHhcNMTYwNDIxMDI0NDQ0WhcNMTcwNDIxMDg0NDQ0WjAjMSEwHwYDVQQDHhgAQQBkAGEAbQAtAFAAQwBcAEEAZABhAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJmh1d9RpN97trtzOotgMCYwtPnij81NfYEaAc9wSU3NzRIqWnik0AegpfZgmFNOkhdcfxTAGnexnXWO8mFeX2JNmmEYTCjCFPLtwsJdEcvhqLcREcLABRXldMANBF2ijyXuEA/9jquAIRT1nmHu1vy/WKHBsmsRVvlTH9BddD0VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAdvoEPELZAiK9qcMiPMMrQ4FTelYOK+TdH+6rpb4H/pW0kWYhWCeh8oy2xINRPlMF2cIe4o1zSXFe3ns9woG8rGsrf6VkRErR713DuxYXfsYcGEgClmDDZMKOljGVm36CkdtYwO2sSDiV6uBtwI7/xNgWdqk0TOkeBXqoOFgaL34=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
